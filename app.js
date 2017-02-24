@@ -1,6 +1,6 @@
 var nodemailer = require("nodemailer");
 
-var smtpTransport = nodemailer.createTransport("SMTP",{
+var smtpTransport = nodemailer.createTransport({
   //  service: "Gmail",  // sets automatically host, port and connection security settings
    auth: {
        user: "email@gmail.com",
