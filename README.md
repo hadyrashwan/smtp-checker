@@ -11,6 +11,8 @@ $ git clone  https://github.com/hadyrashwan/smtp-checker.git
 
 install nodejs and npm from here https://nodejs.org/en/
 
+install dependencies 
+
 
 ```sh
 $ npm install 
