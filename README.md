@@ -22,13 +22,16 @@ $ npm install
 
 #### Run it
 
-change the paramters with the your  smtpTransport string or object 
-
-change the mailer to match your email 
+change the paramters with the your  smtpTransport string
+change the mailer to match your email
 
 then
 
 ```sh
-$ node app.js 
+$ npm  start
 
 ```
+#### Adanced options
+for custom port , tls  etc refer to nodemailer documentation to set your string
+https://nodemailer.com/smtp/
+
